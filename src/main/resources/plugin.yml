@@ -1,0 +1,7 @@
+name: Showcase
+author: Bram
+description: Showcase plugin, to demonstrate an issue within the Adventure library.
+main: com.deathmotion.showcase.Showcase
+version: '1.0.0'
+api-version: '1.13'
+load: POSTWORLD
