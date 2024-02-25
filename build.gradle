@@ -4,7 +4,7 @@ plugins {
     id 'xyz.jpenilla.run-paper' version '2.2.3'
 }
 
-group 'com.deathmotion.showcase'
+group 'com.deathmotion.test'
 version '1.0.0'
 
 java {

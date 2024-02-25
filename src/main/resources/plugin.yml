@@ -1,7 +1,7 @@
-name: Showcase
+name: TestPlugin
 author: Bram
-description: Showcase plugin, to demonstrate an issue within the Adventure library.
-main: com.deathmotion.showcase.Showcase
+description: TestPlugin
+main: com.deathmotion.test.Test
 version: '1.0.0'
 api-version: '1.13'
 load: POSTWORLD

@@ -1,13 +1,13 @@
-package com.deathmotion.showcase;
+package com.deathmotion.test;
 
 import co.aikar.commands.PaperCommandManager;
-import com.deathmotion.showcase.commands.ShowcaseCommand;
+import com.deathmotion.test.commands.TestCommand;
 import lombok.Getter;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
 import org.bukkit.plugin.java.JavaPlugin;
 
 @Getter
-public class Showcase extends JavaPlugin {
+public class Test extends JavaPlugin {
     private BukkitAudiences adventure;
     private PaperCommandManager commandManager;
 
@@ -16,7 +16,7 @@ public class Showcase extends JavaPlugin {
         adventure = BukkitAudiences.create(this);
 
         commandManager = new PaperCommandManager(this);
-        commandManager.registerCommand(new ShowcaseCommand(this));
+        commandManager.registerCommand(new TestCommand(this));
     }
 
     @Override
