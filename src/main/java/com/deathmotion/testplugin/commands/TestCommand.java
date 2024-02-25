@@ -1,9 +1,9 @@
-package com.deathmotion.test.commands;
+package com.deathmotion.testplugin.commands;
 
 import co.aikar.commands.BaseCommand;
 import co.aikar.commands.annotation.CommandAlias;
 import co.aikar.commands.annotation.Default;
-import com.deathmotion.test.Test;
+import com.deathmotion.testplugin.TestPlugin;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
 import org.bukkit.command.CommandSender;
 
@@ -11,7 +11,7 @@ import org.bukkit.command.CommandSender;
 public class TestCommand extends BaseCommand {
     private final BukkitAudiences adventure;
 
-    public TestCommand(Test plugin) {
+    public TestCommand(TestPlugin plugin) {
         this.adventure = plugin.getAdventure();
     }
 

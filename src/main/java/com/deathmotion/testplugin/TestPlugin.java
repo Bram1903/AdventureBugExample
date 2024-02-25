@@ -1,13 +1,13 @@
-package com.deathmotion.test;
+package com.deathmotion.testplugin;
 
 import co.aikar.commands.PaperCommandManager;
-import com.deathmotion.test.commands.TestCommand;
+import com.deathmotion.testplugin.commands.TestCommand;
 import lombok.Getter;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
 import org.bukkit.plugin.java.JavaPlugin;
 
 @Getter
-public class Test extends JavaPlugin {
+public class TestPlugin extends JavaPlugin {
     private BukkitAudiences adventure;
     private PaperCommandManager commandManager;
 
