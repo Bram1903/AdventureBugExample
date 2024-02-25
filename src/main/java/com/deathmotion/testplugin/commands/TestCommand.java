@@ -16,7 +16,7 @@ public class TestCommand extends BaseCommand {
     }
 
     @Default
-    public void showcase(CommandSender sender) {
+    public void test(CommandSender sender) {
         sender.sendMessage("Hello, world!");
     }
 }
